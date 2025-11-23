@@ -75,7 +75,14 @@ The website is setup to re-build and deploy everytime the main branch of the rep
 
 ## 📚 References / Resources
 
-- [Library or Framework Docs](https://example.com)
+- [Vite docs](https://vitejs.dev/guide/)
+- [React docs](https://react.dev/learn)
+- [TypeScript handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+- [Tailwind CSS docs](https://tailwindcss.com/docs)
+- [Framer Motion docs](https://www.framer.com/motion/introduction/)
+- [Lucide icon docs](https://lucide.dev/guide/)
+- [Netlify deploy docs](https://docs.netlify.com/site-deploys/overview/)
+"
 
 ---
 
