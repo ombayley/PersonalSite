@@ -1,7 +1,38 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+
+    // Browser + modern JS libs
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+
+    // React / JSX
+    "jsx": "react-jsx",
+
+    // Your alias
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+
+    // Include types for Vite + Node (for vite.config.ts, env, etc.)
+    "types": ["vite/client", "node"],
+
+    // Silence future TS7 deprecation noise
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["src", "vite.config.ts"]
 }
