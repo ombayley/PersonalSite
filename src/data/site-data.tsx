@@ -43,19 +43,35 @@ skills: [
     },
     {
       name: "RoboChem",
-      tagline: "Automated self-optimizing reaction platform",
+      tagline: "Automated self-optimizing reaction platform [Currently Private]",
       description:
         "RoboChem is an automated, self-optimizing reaction platform designed for the automated optimisation of flow reactions. This system integrates an AI-driven package with an automated hardware platform to perform reaction optimization.",
-      stack: ["Python", "C++", "Arduino", "PyTorch (BoTorch)", "pydantic"],
+      stack: ["Python", "C++", "Arduino", "PyTorch (BoTorch)", "pydantic", "PyQt", "pyserial", "socket"],
       repo: "https://github.com/Noel-Research-Group/RoboChem_1",
     },
     {
-      name: "Personal Website",
+      name: "AstroidShooter",
+      tagline: "Astroid shooter game written in go using raylib-go",
+      description:
+        "Traditional astroid shooter game written in go using the raylib library. The game features a simple spaceship that can fly around the screen and shoot astroids. The game is over when the player collides with an astroid or once they have destroyed all the asteroids available.",
+      stack: ["Go", "Raylib-go"],
+      repo: "https://github.com/ombayley/AstroidShooter",
+    },
+    {
+      name: "PersonalSite",
       tagline: "Personal Website",
       description:
-        "Personal website built with Next.js and Tailwind CSS. Hosted on Vercel.",
-      stack: ["Next.js", "Tailwind CSS", "TypeScript"],
-      repo: "https://github.com/yourname/website",
+        "Personal website built with TypeScript and React to host my projects and resume.",
+      stack: ["React", "Tailwind CSS", "TypeScript"],
+      repo: "https://github.com/ombayley/PersonalSite",
+    },
+    {
+      name: "EmbeddedRustSystems",
+      tagline: "Bare-metal Rust on a resberry pi pico",
+      description:
+        "Bare-metal (no std library) Rust system controllers on a resberry pi pico using the rp2040-hal crate. Functions include a basic GPIO signalling, Wifi communication and internal array processing.",
+      stack: ["Rust", "rp2040-hal"],
+      repo: "https://github.com/ombayley/EmbeddedRustSystems",
     },
     {
       name: "UPLC Data Analyser GUI",
@@ -64,6 +80,14 @@ skills: [
         "The UPLC Data Analyser is a GUI application designed to open and analyse chromatogram data stored in Agilent's proprietary .dx files. This application utilizes CustomTKinter for the user interface and Matplotlib+seaborn for plotting the chromatogram data. ",
       stack: ["Python", "(Custom)Tkinter", "Matplotlib", "Seaborn"],
       repo: "https://github.com/ombayley/UPLC_Data_Analyser",
+    },
+    {
+      name: "CSharpener",
+      tagline: "Learning ground for C# development",
+      description:
+        "Aggregation of basic learner C# projects (e.g. Guessing Game, GUI Notebook, etc...)",
+      stack: ["C#", ".NET", "WinForms"],
+      repo: "https://github.com/ombayley/CSharpener",
     },
   ],
   experience: [
