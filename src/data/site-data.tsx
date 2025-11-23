@@ -3,7 +3,7 @@ import { SiTypescript, SiCplusplus, SiJavascript, SiDotnet } from "react-icons/s
 
 export const DATA = {
   name: "Olly Bayley",
-  title: "Organic Chemist • Backend Developer",
+  title: "Chemist • Programmer • Researcher",
   location: "Amsterdam, NL",
   email: "ombayley@uva.nl",
   links: {

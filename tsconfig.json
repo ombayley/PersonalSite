@@ -34,5 +34,5 @@
     // Silence future TS7 deprecation noise
     "ignoreDeprecations": "6.0"
   },
-  "include": ["src", "vite.config.ts"]
+  "include": ["src", ".config/vite.config.ts"]
 }
