@@ -21,3 +21,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# build output
+dist/
+dist-ssr
+
+# TypeScript build info
+*.tsbuildinfo
+
+# compiled config files
+vite.config.js
+vite.config.d.ts
