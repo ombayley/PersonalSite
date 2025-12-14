@@ -1,4 +1,4 @@
-import '@fontsource-variable/inter';  // optional but improves the look
+import '@fontsource-variable/inter';
 import './index.css';
 
 import React from 'react';
