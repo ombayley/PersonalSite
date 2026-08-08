@@ -1,5 +1,5 @@
-import { FaPython, FaJava, FaNodeJs } from "react-icons/fa";
-import { SiTypescript, SiCplusplus, SiJavascript, SiDotnet } from "react-icons/si";
+import { FaPython, FaJava, FaRust, FaGolang } from "react-icons/fa6";
+import { SiCplusplus } from "react-icons/si";
 
 export const DATA = {
   name: "Olly Bayley",
@@ -23,11 +23,9 @@ export const DATA = {
 skills: [
   { name: "Python", icon: <FaPython className="w-5 h-5" /> },
   { name: "C++", icon: <SiCplusplus className="w-5 h-5" /> },
-  { name: "C#", icon: <SiDotnet className="w-5 h-5" /> },
   { name: "Java", icon: <FaJava className="w-5 h-5" /> },
-  { name: "Node.js", icon: <FaNodeJs className="w-5 h-5" /> },
-  { name: "TypeScript", icon: <SiTypescript className="w-5 h-5" /> },
-  { name: "JavaScript", icon: <SiJavascript className="w-5 h-5" /> },
+  { name: "Rust", icon: <FaRust className="w-5 h-5" /> },
+  { name: "Go", icon: <FaGolang className="w-5 h-5" /> },
 ],
   about:[
     "Orginally a pure chemist, my focus has been on natural product total synthesis and drug development (NZ - Masters + Industry). After a few years of this I moved to Molecular Machine research (UK - PhD) and subsequently to chemical automation (Netherlands - Post-Doc)."
