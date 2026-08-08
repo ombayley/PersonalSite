@@ -68,6 +68,7 @@ skills: [
       tagline: "Bare-metal Rust on a resberry pi pico",
       description:
         "Bare-metal (no std library) Rust system controllers on a raspberry pi pico using the embassy crate. Functions include a basic GPIO signalling and USB communication. The core design is to provide similar functionality and ease of control to the MicroPython build for the pi",
+      stack: ["Rust", "Embassy", "RP2350"],
       repo: "https://github.com/ombayley/EmbeddedRustSystems",
     },
        {
