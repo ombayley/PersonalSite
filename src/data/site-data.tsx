@@ -47,13 +47,13 @@ skills: [
       stack: ["Python", "C++", "Arduino", "PyTorch (BoTorch)", "pydantic", "PyQt", "pyserial", "socket"],
       repo: "https://github.com/Noel-Research-Group/RoboChem_1",
     },
-    {
-      name: "AstroidShooter",
-      tagline: "Astroid shooter game written in go using raylib-go",
+      {
+      name: "UPLC Data Analyser GUI",
+      tagline: "GUI Application for automated analysis of Agilen OpenLab CDS raw data",
       description:
-        "Traditional astroid shooter game written in go using the raylib library. The game features a simple spaceship that can fly around the screen and shoot astroids. The game is over when the player collides with an astroid or once they have destroyed all the asteroids available.",
-      stack: ["Go", "Raylib-go"],
-      repo: "https://github.com/ombayley/AstroidShooter",
+        "The UPLC Data Analyser is a GUI application designed to open and analyse chromatogram data stored in Agilent's proprietary .dx files. This application utilizes CustomTKinter for the user interface and Matplotlib+seaborn for plotting the chromatogram data. ",
+      stack: ["Python", "(Custom)Tkinter", "Matplotlib", "Seaborn"],
+      repo: "https://github.com/ombayley/UPLC_Data_Analyser",
     },
     {
       name: "PersonalSite",
@@ -67,25 +67,16 @@ skills: [
       name: "EmbeddedRustSystems",
       tagline: "Bare-metal Rust on a resberry pi pico",
       description:
-        "Bare-metal (no std library) Rust system controllers on a resberry pi pico using the rp2040-hal crate. Functions include a basic GPIO signalling, Wifi communication and internal array processing.",
-      stack: ["Rust", "rp2040-hal"],
+        "Bare-metal (no std library) Rust system controllers on a raspberry pi pico using the embassy crate. Functions include a basic GPIO signalling and USB communication. The core design is to provide similar functionality and ease of control to the MicroPython build for the pi",
       repo: "https://github.com/ombayley/EmbeddedRustSystems",
     },
-    {
-      name: "UPLC Data Analyser GUI",
-      tagline: "GUI Application for automated analysis of Agilen OpenLab CDS raw data",
+       {
+      name: "AstroidShooter",
+      tagline: "Astroid shooter game written in go using raylib-go",
       description:
-        "The UPLC Data Analyser is a GUI application designed to open and analyse chromatogram data stored in Agilent's proprietary .dx files. This application utilizes CustomTKinter for the user interface and Matplotlib+seaborn for plotting the chromatogram data. ",
-      stack: ["Python", "(Custom)Tkinter", "Matplotlib", "Seaborn"],
-      repo: "https://github.com/ombayley/UPLC_Data_Analyser",
-    },
-    {
-      name: "CSharpener",
-      tagline: "Learning ground for C# development",
-      description:
-        "Aggregation of basic learner C# projects (e.g. Guessing Game, GUI Notebook, etc...)",
-      stack: ["C#", ".NET", "WinForms"],
-      repo: "https://github.com/ombayley/CSharpener",
+        "Traditional astroid shooter game written in go using the raylib library. The game features a simple spaceship that can fly around the screen and shoot astroids. The game is over when the player collides with an astroid or once they have destroyed all the asteroids available.",
+      stack: ["Go", "Raylib-go"],
+      repo: "https://github.com/ombayley/AstroidShooter",
     },
   ],
   experience: [
