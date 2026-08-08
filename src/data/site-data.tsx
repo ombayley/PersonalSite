@@ -77,7 +77,7 @@ skills: [
         "Traditional astroid shooter game written in go using the raylib library. The game features a simple spaceship that can fly around the screen and shoot astroids. The game is over when the player collides with an astroid or once they have destroyed all the asteroids available.",
       stack: ["Go", "Raylib-go"],
       repo: "https://github.com/ombayley/AstroidShooter",
-    },
+    }
   ],
   experience: [
     {
