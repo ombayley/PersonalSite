@@ -11,11 +11,11 @@ import { SkillsSection } from "@/components/sections/skills";
 import { ContactSection } from "@/components/sections/contact";
 
 export default function Page() {
-  const [dark, setDark] = useState(true);
+  const [dark, setDark] = useState(false);
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", dark);
-    document.title = "Olly Bayley — Organic Chemist • Backend Developer";
+    document.title = "Dr Olly Bayley — Organic Chemist • Backend Developer";
   }, [dark]);
 
   const year = useMemo(() => new Date().getFullYear(), []);

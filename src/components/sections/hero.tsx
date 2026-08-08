@@ -54,20 +54,7 @@ export function HeroSection() {
             </a>
           </div>
 
-          <div className="mt-10 grid grid-cols-3 max-w-md gap-4">
-            {DATA.highlights.map((h, i) => (
-              <Card key={i} className="rounded-2xl">
-                <CardContent className="p-4">
-                  <div className="text-2xl md:text-3xl font-semibold">
-                    {h.value}
-                  </div>
-                  <div className="text-xs opacity-70 uppercase tracking-wide">
-                    {h.label}
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+
         </motion.div>
       </div>
     </header>
