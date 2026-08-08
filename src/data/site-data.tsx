@@ -2,7 +2,7 @@ import { FaPython, FaJava, FaRust, FaGolang } from "react-icons/fa6";
 import { SiCplusplus } from "react-icons/si";
 
 export const DATA = {
-  name: "Olly Bayley",
+  name: "Dr. Olly Bayley",
   title: "Chemist • Programmer • Researcher",
   location: "Amsterdam, NL",
   email: "ombayley@uva.nl",
