@@ -4,8 +4,8 @@ import { SiCplusplus } from "react-icons/si";
 export const DATA = {
   name: "Dr. Olly Bayley",
   title: "Chemist • Programmer • Researcher",
-  location: "Amsterdam, NL",
-  email: "ombayley@uva.nl",
+  location: "Auckland, NZ",
+  email: "ollybayley1@gmail.com",
   links: {
     github: "https://github.com/ombayley",
     linkedin: "https://www.linkedin.com/in/ollybayleynz/",
