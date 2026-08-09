@@ -14,7 +14,7 @@ export const DATA = {
     mastersThesis: "/docs/obayley_masters_thesis.pdf",
   },
   blurb:
-    "A Post-Doctoral Researcher at the University of Amsterdam (NRG) with a focus on chemical synthesis, hardware automation and autmoarted data analysis. ",
+    "A Post-Doctoral Researcher at the University of Amsterdam (NRG) with a focus on chemical synthesis, hardware automation, automated data analysis and machine learning. ",
   highlights: [
     { label: "yrs chem", value: 10 },
     { label: "yrs code", value: 2 },
