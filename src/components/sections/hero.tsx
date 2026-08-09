@@ -21,7 +21,7 @@ export function HeroSection() {
             <Badge variant="secondary" className="rounded-full">
               Open to interesting roles
             </Badge>
-            <span className="opacity-70">{DATA.location}</span>
+            <span className="opacity-70">{DATA.target_location}</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl font-semibold leading-tight">
