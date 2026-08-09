@@ -49,15 +49,13 @@ export function AboutSection() {
           <CardContent className="text-sm opacity-90 space-y-2">
             <div>
               • Post-Doc - Primary maintainer for the{" "}
-              <span className="font-mono">RoboChem</span> repo of the NRG.
+              <span className="font-mono">RoboChem</span> system of the NRG.
             </div>
             <div>
-              • PhD - Best presentation @ 4/4 conferences (National and
-              International).
+              • PhD - 'Best Talk' or 'Best Poster' award at every attended conference on both National and International scales.
             </div>
             <div>
-              • Masters - Graduated with highest GPA in the history of the
-              course.
+              • Masters - Top GPA for the course at time of graduation.
             </div>
           </CardContent>
         </Card>
