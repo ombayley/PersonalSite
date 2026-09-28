@@ -34,6 +34,9 @@ export function Navbar({ dark, toggleDark }: NavbarProps) {
           <a href="#publications" className="hover:opacity-80">
             Publications
           </a>
+          <a href="#awards" className="hover:opacity-80">
+            Awards
+          </a>
           <a href="#skills" className="hover:opacity-80">
             Skills
           </a>
