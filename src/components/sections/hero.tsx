@@ -11,7 +11,7 @@ import { DATA } from "@/data/site-data";
 export function HeroSection() {
   return (
     <header id="home" className="relative overflow-hidden">
-      <div className="max-w-6xl mx-auto px-4 py-10 md:py-16">
+      <div className="max-w-6xl mx-auto px-4 py-5 md:py-8">
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
@@ -25,9 +25,10 @@ export function HeroSection() {
           </div>
 
           <h1 className="text-4xl md:text-4xl font-semibold leading-tight">
+            <span className="block text-4xl md:text-6xl">
               {DATA.name}
-            <br />
-            <span className="bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 bg-clip-text text-transparent">
+            </span>
+            <span className="block mt-1 text-xl md:text-3xl bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 bg-clip-text text-transparent">
               {DATA.title}
             </span>
           </h1>
