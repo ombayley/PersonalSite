@@ -9,13 +9,14 @@ import { ExperienceSection } from "@/components/sections/experience";
 import { ProjectsSection } from "@/components/sections/projects";
 import { SkillsSection } from "@/components/sections/skills";
 import { ContactSection } from "@/components/sections/contact";
+import { DATA } from "@/data/site-data";
 
 export default function Page() {
   const [dark, setDark] = useState(false);
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", dark);
-    document.title = "Dr Olly Bayley — Organic Chemist • Backend Developer";
+    document.title = `${DATA.name} — ${DATA.title}`;
   }, [dark]);
 
   const year = useMemo(() => new Date().getFullYear(), []);

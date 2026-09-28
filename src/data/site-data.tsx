@@ -3,8 +3,8 @@ import { SiCplusplus } from "react-icons/si";
 
 export const DATA = {
   name: "Dr. Olly Bayley",
-  title: "Chemist • Programmer • Researcher",
-  location: "Amsterdam, NL",
+  title: "Research Engineer • ML and Embedded Systems",
+  location: "Auckland, NZ",
   target_location: "Auckland, NZ",
   email: "ollybayley1@gmail.com",
   links: {
@@ -15,12 +15,7 @@ export const DATA = {
     mastersThesis: "/docs/obayley_masters_thesis.pdf",
   },
   blurb:
-    "A Post-Doctoral Researcher at the University of Amsterdam (NRG) with a focus on chemical synthesis, hardware automation, automated data analysis and machine learning. ",
-  highlights: [
-    { label: "yrs chem", value: 10 },
-    { label: "yrs code", value: 2 },
-    { label: "education", value: "PhD" },
-  ],
+    "A Kiwi Researcher with a focus on hardware automation, machine learning and chemical synthesis.",
 skills: [
   { name: "Python", icon: <FaPython className="w-5 h-5" /> },
   { name: "C++", icon: <SiCplusplus className="w-5 h-5" /> },
@@ -29,10 +24,33 @@ skills: [
   { name: "Go", icon: <FaGolang className="w-5 h-5" /> },
 ],
   about:[
-    "Orginally a pure chemist, my focus has been on natural product total synthesis and drug development (NZ - Masters + Industry). After a few years of this I moved to Molecular Machine research (UK - PhD) and subsequently to chemical automation (Netherlands - Post-Doc)."
+    "Trained as an organic synthetic chemist, my Masters (VUW - NZ) and industry work (ACSRC - NZ) focused on total synthesis and drug development." +
+    "I then moved to the UK (Bristol) to do my PhD focusing on the development of new Molecular Machines. Having spent considerable time building custom" +
+    "analytical devices for the PhD, I subsequently moved to Amsterdam (The Netherlands) to focus on chemical automation (Post-Doc)." +
+    "For the last three years I have designed self-driving laboratories where Bayesian optimisation (BO) agents choose experiment " +
+    "conditions, custom-built hardware runs it, and automated data pipelines turn the raw instrument data into the next " +
+    "training point. This work has produced three platforms (see publication list) and industrial collaborations with Novo " +
+    "Nordisk, Covestro and Symeres. Having spent 3 years covering the full stack of theses systems, I'm now looker to delve deeper into " +
+    "the embedded systems and machine learning elements."
   ],
   projects: [
     {
+      name: "ChemRover",
+      tagline: "ML Models to predict azobenzene properties given encoded structural inputs",
+      description:
+        "ML Prediction of azobenzene properties. To be paired with ChemKlipper for predictive exploration as a part of a research project",
+      stack: ["Python","Scikit-Learn", "XGBoost", "Hydra", "optuna", "RDkit", "jupyter notebooks"],
+      repo: "https://github.com/ombayley/ChemRover",
+    },
+      {
+      name: "ChemKlipper",
+      tagline: "Automation system based on Klipper 3D printers",
+      description:
+        "Automation system based on Klipper for chemical sampling and analysis. To be paired with ChemRover for predictive exploration as a part of a research project.",
+      stack: ["Python", "Moonraker", "Klipper", "Pydantic", "websocket"],
+      repo: "https://github.com/ombayley/ChemKlipper",
+    },
+      {
       name: "ChromTroller",
       tagline: "Automated Hardware Control and Chemical Data Analysis",
       description:

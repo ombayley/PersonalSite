@@ -53,8 +53,6 @@ export function HeroSection() {
               </Button>
             </a>
           </div>
-
-
         </motion.div>
       </div>
     </header>
