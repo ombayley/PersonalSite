@@ -38,27 +38,6 @@ export function AboutSection() {
             {DATA.about}
           </CardContent>
         </Card>
-
-        {/* Static highlights card */}
-        <Card className="rounded-2xl md:col-span-4">
-          <CardHeader className="pb-2">
-            <CardTitle className="flex items-center gap-2 text-base">
-              <Award className="w-4 h-4" /> Highlights
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="text-sm opacity-90 space-y-2">
-            <div>
-              • Post-Doc - Primary maintainer for the{" "}
-              <span className="font-mono">RoboChem</span> system of the NRG.
-            </div>
-            <div>
-              • PhD - 'Best Talk' or 'Best Poster' award at every attended conference on both National and International scales.
-            </div>
-            <div>
-              • Masters - Top GPA for the course at time of graduation.
-            </div>
-          </CardContent>
-        </Card>
       </motion.div>
     </Section>
   );
