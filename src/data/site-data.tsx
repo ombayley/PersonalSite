@@ -87,9 +87,9 @@ export const DATA = {
   ],
   invitedTalks: ["Big Chem NL, Groningen", "UvA–Max Planck Symposium"],
   about:[
-    "Trained as an organic synthetic chemist, my Masters (VUW - NZ) and industry work (ACSRC - NZ) focused on total synthesis and drug development." +
-    "I then moved to the UK (Bristol) to do my PhD focusing on the development of new Molecular Machines. Having spent considerable time building custom" +
-    "analytical devices for the PhD, I subsequently moved to Amsterdam (The Netherlands) to focus on chemical automation (Post-Doc)." +
+    "Trained as an organic synthetic chemist, my Masters (VUW - NZ) and industry work (ACSRC - NZ) focused on total synthesis and drug development. " +
+    "I then moved to the UK (Bristol) to do my PhD focusing on the development of new Molecular Machines. Having spent considerable time building custom " +
+    "analytical devices for the PhD, I subsequently moved to Amsterdam (The Netherlands) to focus on chemical automation (Post-Doc). " +
     "For the last three years I have designed self-driving laboratories where Bayesian optimisation (BO) agents choose experiment " +
     "conditions, custom-built hardware runs it, and automated data pipelines turn the raw instrument data into the next " +
     "training point. This work has produced three platforms (see publication list) and industrial collaborations with Novo " +
@@ -99,7 +99,7 @@ export const DATA = {
   projects: [
     {
       name: "ChemRover",
-      tagline: "ML Models to predict azobenzene properties given encoded structural inputs",
+      tagline: "MConfig-driven ML benchmark (8 models, Hydra/Optuna, RDKit) predicting azobenzene absorption maxima (R² ≈ 0.92).",
       description:
         "ML Prediction of azobenzene properties. To be paired with ChemKlipper for predictive exploration as a part of a research project",
       stack: ["Python","Scikit-Learn", "XGBoost", "Hydra", "optuna", "RDkit", "jupyter notebooks"],
@@ -107,7 +107,7 @@ export const DATA = {
     },
       {
       name: "ChemKlipper",
-      tagline: "Automation system based on Klipper 3D printers",
+      tagline: "Async Python control layer for a low-cost Klipper liquid-handling robot",
       description:
         "Automation system based on Klipper for chemical sampling and analysis. To be paired with ChemRover for predictive exploration as a part of a research project.",
       stack: ["Python", "Moonraker", "Klipper", "Pydantic", "websocket"],
@@ -138,28 +138,12 @@ export const DATA = {
       repo: "https://github.com/ombayley/UPLC_Data_Analyser",
     },
     {
-      name: "PersonalSite",
-      tagline: "Personal Website",
-      description:
-        "Personal website built with TypeScript and React to host my projects and resume.",
-      stack: ["React", "Tailwind CSS", "TypeScript"],
-      repo: "https://github.com/ombayley/PersonalSite",
-    },
-    {
       name: "EmbeddedRustSystems",
       tagline: "Bare-metal Rust on a raspberry pi pico",
       description:
         "Bare-metal (no std library) Rust system controllers on a raspberry pi pico using the embassy crate. Functions include a basic GPIO signalling and USB communication. The core design is to provide similar functionality and ease of control to the MicroPython build for the pi",
       stack: ["Rust", "Embassy", "RP2350"],
       repo: "https://github.com/ombayley/EmbeddedRustSystems",
-    },
-       {
-      name: "AsteroidShooter",
-      tagline: "Asteroid shooter game written in go using raylib-go",
-      description:
-        "Traditional asteroid shooter game written in go using the raylib library. The game features a simple spaceship that can fly around the screen and shoot astroids. The game is over when the player collides with an astroid or once they have destroyed all the asteroids available.",
-      stack: ["Go", "Raylib-go"],
-      repo: "https://github.com/ombayley/AstroidShooter",
     }
   ],
   experience: [
