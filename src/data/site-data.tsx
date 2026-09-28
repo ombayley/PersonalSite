@@ -103,12 +103,23 @@ skills: [
     {
       company: "University of Amsterdam (UvA)",
       location: "Amsterdam, NL",
+      role: "Guest Research Fellow",
+      period: "Jul 2026 — Present",
+      summary:
+        "– Maintaining and refactoring the RoboChem self-driving-lab codebase, preparing manuscripts, and supervising PhD \n" +
+          "students building the next generation of platforms",
+      bullets: [
+      ],
+    },
+    {
+      company: "University of Amsterdam (UvA)",
+      location: "Amsterdam, NL",
       role: "Postdoc",
-      period: "Nov 2023 — Present",
+      period: "Nov 2023 — Jun 2026",
       summary:
         "Research on the automation of chemical reaction development",
       bullets: [
-        "Designed new hardware for reaction execution at 100th of the price of commercial systems",
+        "Designed new hardware for reaction execution at 5% of the price of commercial systems",
         "Developed new software tools for the automated analysis of HPLC, Mass Spec, NMR and UV chromatograms and spectra",
         "Built high-level control architecture to drive autonomous reaction systems",
         "Wrote low-level control software to automate mechanical and robotinc components"
@@ -176,4 +187,15 @@ skills: [
       summary: "Major in Molecular Pharmacology and Medicinal Chemistry"
     }
   ],
+  puplications: [
+    {
+      authors: [],
+      title: "",
+      year: "20xx",
+      journal: "JACS",
+      doi: "addr",
+
+    }
+  ]
+
 };
