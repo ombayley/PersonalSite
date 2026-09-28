@@ -1,5 +1,6 @@
-import { FaPython, FaJava, FaRust, FaGolang } from "react-icons/fa6";
+import { FaPython, FaRust, FaGolang } from "react-icons/fa6";
 import { SiCplusplus } from "react-icons/si";
+import { Brain, ChartLine, GitBranch, Cpu, FlaskConical, Bot } from "lucide-react";
 
 export const DATA = {
   name: "Dr. Olly Bayley",
@@ -15,14 +16,76 @@ export const DATA = {
     mastersThesis: "/docs/obayley_masters_thesis.pdf",
   },
   blurb:
-    "A Kiwi Researcher with a focus on hardware automation, machine learning and chemical synthesis.",
-skills: [
-  { name: "Python", icon: <FaPython className="w-5 h-5" /> },
-  { name: "C++", icon: <SiCplusplus className="w-5 h-5" /> },
-  { name: "Java", icon: <FaJava className="w-5 h-5" /> },
-  { name: "Rust", icon: <FaRust className="w-5 h-5" /> },
-  { name: "Go", icon: <FaGolang className="w-5 h-5" /> },
-],
+    "A Kiwi Researcher with an interest in hardware automation, machine learning and chemical synthesis.",
+  skills: {
+    languages: [
+      { name: "Python", level: "Primary", icon: <FaPython className="w-5 h-5" /> },
+      { name: "C++", level: "Arduino / embedded", icon: <SiCplusplus className="w-5 h-5" /> },
+      { name: "Rust", level: "Bare-metal, Embassy", icon: <FaRust className="w-5 h-5" /> },
+      { name: "Go", level: "Familiar", icon: <FaGolang className="w-5 h-5" /> },
+    ],
+    groups: [
+      {
+        name: "Machine learning",
+        icon: <Brain className="w-5 h-5" />,
+        items: [
+          "Bayesian optimisation (BoTorch)", "Gaussian processes", "Multi-objective & transfer learning",
+          "XGBoost", "scikit-learn (RF, SVM, KNN, PLS, MLP)", "PyTorch & Lightning", "Optuna",
+        ],
+      },
+      {
+        name: "Data",
+        icon: <ChartLine className="w-5 h-5" />,
+        items: [
+          "pandas", "NumPy", "SciPy", "Noisy 1D/2D signal pipelines", "Time-series instrument data",
+          "matplotlib", "seaborn", "TensorBoard",
+        ],
+      },
+      {
+        name: "Software engineering",
+        icon: <GitBranch className="w-5 h-5" />,
+        items: [
+          "Git", "GitHub Actions (CI)", "pytest", "Pydantic", "Hydra", "MkDocs + GitHub Pages",
+          "PyQt", "Streamlit", "tkinter",
+        ],
+      },
+      {
+        name: "Hardware & robotics",
+        icon: <Cpu className="w-5 h-5" />,
+        items: [
+          "C++ firmware (Arduino)", "Bare-metal Rust (RP2350)", "KiCad PCB design", "Klipper / Moonraker",
+          "Raspberry Pi + STM32", "CAD (Autodesk Inventor)", "FDM 3D printing",
+        ],
+      },
+      {
+        name: "Cheminformatics & lab automation",
+        icon: <FlaskConical className="w-5 h-5" />,
+        items: [
+          "RDKit", "Molecular descriptors", "ECFP/FCFP fingerprints", "HPLC", "UV-Vis", "MS", "NMR",
+        ],
+      },
+      {
+        name: "AI tools",
+        icon: <Bot className="w-5 h-5" />,
+        note: "Used daily for development, refactoring and code review",
+        items: ["Claude Code", "Codex", "Windsurf"],
+      },
+    ],
+  },
+  // kind: "award" | "competition" | "scholarship" | "honour"
+  awards: [
+    { year: "2026", kind: "award", title: "RSC Poster Award", event: "Flow Chemistry Europe, Málaga" },
+    { year: "2023", kind: "award", title: "Best Poster Award", event: "RSC 27th International Symposium, University of Oxford" },
+    { year: "2023", kind: "award", title: "Best Talk Award", event: "ECR MASC Meeting, Francis Crick Institute, London" },
+    { year: "2023", kind: "award", title: "Best Talk Award", event: "Final-Year Chemistry PhD Talks, University of Bristol" },
+    { year: "2023", kind: "award", title: "Best Poster Award", event: "RSC South-West Meeting, University of Reading" },
+    { year: "2021", kind: "competition", title: "Top 15 of 243 teams", event: "Annual Merck Compound Challenge" },
+    { year: "2019", kind: "award", title: "Runner-up, Best Talk Award", event: "VUW–Massey PGR Chemistry Symposium" },
+    { year: "2018", kind: "scholarship", title: "Master's by Thesis Scholarship", event: "Te Herenga Waka – Victoria University of Wellington" },
+    { year: "2016", kind: "scholarship", title: "Ngāti Kahungunu Iwi Scholarship", event: "Ngāti Kahungunu Iwi" },
+    { year: "2015", kind: "honour", title: "Dean's List", event: "Victoria University of Wellington" },
+  ],
+  invitedTalks: ["Big Chem NL, Groningen", "UvA–Max Planck Symposium"],
   about:[
     "Trained as an organic synthetic chemist, my Masters (VUW - NZ) and industry work (ACSRC - NZ) focused on total synthesis and drug development." +
     "I then moved to the UK (Bristol) to do my PhD focusing on the development of new Molecular Machines. Having spent considerable time building custom" +
@@ -68,7 +131,7 @@ skills: [
     },
       {
       name: "UPLC Data Analyser GUI",
-      tagline: "GUI Application for automated analysis of Agilen OpenLab CDS raw data",
+      tagline: "GUI Application for automated analysis of Agilent OpenLab CDS raw data",
       description:
         "The UPLC Data Analyser is a GUI application designed to open and analyse chromatogram data stored in Agilent's proprietary .dx files. This application utilizes CustomTKinter for the user interface and Matplotlib+seaborn for plotting the chromatogram data. ",
       stack: ["Python", "(Custom)Tkinter", "Matplotlib", "Seaborn"],
@@ -84,17 +147,17 @@ skills: [
     },
     {
       name: "EmbeddedRustSystems",
-      tagline: "Bare-metal Rust on a resberry pi pico",
+      tagline: "Bare-metal Rust on a raspberry pi pico",
       description:
         "Bare-metal (no std library) Rust system controllers on a raspberry pi pico using the embassy crate. Functions include a basic GPIO signalling and USB communication. The core design is to provide similar functionality and ease of control to the MicroPython build for the pi",
       stack: ["Rust", "Embassy", "RP2350"],
       repo: "https://github.com/ombayley/EmbeddedRustSystems",
     },
        {
-      name: "AstroidShooter",
-      tagline: "Astroid shooter game written in go using raylib-go",
+      name: "AsteroidShooter",
+      tagline: "Asteroid shooter game written in go using raylib-go",
       description:
-        "Traditional astroid shooter game written in go using the raylib library. The game features a simple spaceship that can fly around the screen and shoot astroids. The game is over when the player collides with an astroid or once they have destroyed all the asteroids available.",
+        "Traditional asteroid shooter game written in go using the raylib library. The game features a simple spaceship that can fly around the screen and shoot astroids. The game is over when the player collides with an astroid or once they have destroyed all the asteroids available.",
       stack: ["Go", "Raylib-go"],
       repo: "https://github.com/ombayley/AstroidShooter",
     }
@@ -106,7 +169,7 @@ skills: [
       role: "Guest Research Fellow",
       period: "Jul 2026 — Present",
       summary:
-        "– Maintaining and refactoring the RoboChem self-driving-lab codebase, preparing manuscripts, and supervising PhD \n" +
+        "Maintaining and refactoring the RoboChem self-driving-lab codebase, preparing manuscripts, and supervising PhD \n" +
           "students building the next generation of platforms",
       bullets: [
       ],
@@ -122,7 +185,7 @@ skills: [
         "Designed new hardware for reaction execution at 5% of the price of commercial systems",
         "Developed new software tools for the automated analysis of HPLC, Mass Spec, NMR and UV chromatograms and spectra",
         "Built high-level control architecture to drive autonomous reaction systems",
-        "Wrote low-level control software to automate mechanical and robotinc components"
+        "Wrote low-level control software to automate mechanical and robotic components"
       ],
     },
     {
@@ -133,7 +196,7 @@ skills: [
       summary:
         "Gram scale synthesis of anti-cancer compounds for the Faculty of Medicine and Health Science at the Auckland Cancer Society Research Centre",
       bullets: [
-        "Convergant 20-Step (total step count) Synthesis",
+        "Convergent 20-Step (total step count) Synthesis",
         ">5g of final products",
         "Material used in pre-clinical trials"
       ],
@@ -158,7 +221,7 @@ skills: [
       summary:
         "Project at a CRI (Crown Research Institute) focusing on nano/microencapsulation of nutraceutical oils",
       bullets: [
-        "Introduction to nanoencapsualtion techniques",
+        "Introduction to nano-encapsulation techniques",
       ],
     },
   ],
@@ -210,6 +273,8 @@ skills: [
       title: "Redefining synthetic efficiency: Chemical and technological shortcuts",
       year: "2026",
       journal: "Chem",
+      volume: "12",
+      pages: "103139",
       doi: "10.1016/j.chempr.2026.103139",
       image: "/docs/graphical_abstracts/Chem_2026.jpg",
     },
