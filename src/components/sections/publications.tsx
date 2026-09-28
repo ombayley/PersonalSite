@@ -17,7 +17,7 @@ type Publication = {
   doi: string;
   volume?: string;
   pages?: string;
-  image?: string; // TOC / graphical abstract, e.g. "/pubs/robochem.png"
+  image?: string; // TOC / graphical abstract, e.g. "/docs/graphical_abstracts/eRoboChem.png"
 };
 
 // Author names containing this are shown in bold
@@ -103,16 +103,22 @@ export function PublicationsSection() {
                 </CardContent>
               </Card>
 
+              {/* Graphical abstract slot: click to open full size */}
               {p.image && (
                 <Card className="rounded-2xl overflow-hidden">
-                  <CardContent className="p-4 flex items-center justify-center h-full bg-white">
+                  <a
+                    href={p.image}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center justify-center h-full min-h-40 p-4 bg-white"
+                  >
                     <img
                       src={p.image}
                       alt={`Graphical abstract: ${p.title}`}
                       loading="lazy"
-                      className="max-h-56 w-auto object-contain"
+                      className="max-h-56 max-w-full w-auto object-contain transition-transform hover:scale-[1.02]"
                     />
-                  </CardContent>
+                  </a>
                 </Card>
               )}
             </div>

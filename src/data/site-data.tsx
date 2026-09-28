@@ -195,6 +195,7 @@ skills: [
       year: "2026",
       journal: "Manuscript in preparation",
       doi: "",
+      image: "/docs/graphical_abstracts/eRoboChem.png",
     },
     {
       authors: ["*M. Vanzella", "*O. Bayley", "…", "T. Noël"],
@@ -202,6 +203,7 @@ skills: [
       year: "2026",
       journal: "ChemRxiv",
       doi: "10.26434/chemrxiv.15005284/v1",
+      image: "/docs/graphical_abstracts/ChemRxiv_RoboChem-up.jpg",
     },
     {
       authors: ["J. Djossou", "M. Claros", "O. Bayley", "T. Noël"],
@@ -209,6 +211,7 @@ skills: [
       year: "2026",
       journal: "Chem",
       doi: "10.1016/j.chempr.2026.103139",
+      image: "/docs/graphical_abstracts/Chem_2026.jpg",
     },
     {
       authors: ["*S. Pilon", "*E. Savino", "*O. M. Bayley", "M. Vanzella", "…", "T. Noël"],
@@ -216,6 +219,7 @@ skills: [
       year: "2026",
       journal: "Nature Synthesis",
       doi: "10.1038/s44160-026-01053-0",
+      image: "/docs/graphical_abstracts/Nat_Synth_2026.png",
     },
     {
       authors: ["*J. Djossou", "*F. Pasca", "…", "O. Bayley", "…", "T. Noël"],
@@ -223,6 +227,7 @@ skills: [
       year: "2026",
       journal: "J. Am. Chem. Soc.",
       doi: "10.1021/jacs.6c16323",
+      image: "/docs/graphical_abstracts/JACS_2026.png",
     },
     {
       authors: ["N. Kaplaneris", "E. Savino", "…", "O. Bayley", "…", "T. Noël"],
@@ -230,6 +235,7 @@ skills: [
       year: "2025",
       journal: "ChemRxiv",
       doi: "10.26434/chemrxiv-2025-zwqnt",
+      image: "/docs/graphical_abstracts/ChemRxiv_Cys_Arylation.jpg",
     },
     {
       authors: ["*O. Bayley", "*E. Savino", "*A. Slattery", "T. Noël"],
@@ -239,6 +245,7 @@ skills: [
       volume: "7",
       pages: "2382–2398",
       doi: "10.1016/j.matt.2024.06.003",
+      image: "/docs/graphical_abstracts/Matter_7_7_2382_2024.jpg",
     },
   ],
 };
