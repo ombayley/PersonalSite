@@ -25,7 +25,7 @@ export function HeroSection() {
           </div>
 
           <h1 className="text-4xl md:text-4xl font-semibold leading-tight">
-            <span className="block text-4xl md:text-6xl">
+            <span className="block text-4xl md:text-6xl py-1">
               {DATA.name}
             </span>
             <span className="block mt-1 text-xl md:text-3xl bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 bg-clip-text text-transparent">
