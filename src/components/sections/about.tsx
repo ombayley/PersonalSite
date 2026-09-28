@@ -28,7 +28,7 @@ export function AboutSection() {
         </div>
 
         {/* About text */}
-        <Card className="rounded-2xl md:col-span-10 lg:col-span-10">
+         <Card className="rounded-2xl md:col-span-9 lg:col-span-9">
           <CardHeader className="pb-2">
             <CardTitle className="flex items-center gap-2 text-base">
               <MapPin className="w-4 h-4" /> Currently based in {DATA.location}
