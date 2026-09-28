@@ -80,7 +80,7 @@ export const DATA = {
     { year: "2023", kind: "award", title: "Best Talk Award", event: "Final-Year Chemistry PhD Talks, University of Bristol" },
     { year: "2023", kind: "award", title: "Best Poster Award", event: "RSC South-West Meeting, University of Reading" },
     { year: "2021", kind: "competition", title: "Top 15 of 243 teams", event: "Annual Merck Compound Challenge" },
-    { year: "2019", kind: "award", title: "Runner-up, Best Talk Award", event: "VUW–Massey PGR Chemistry Symposium" },
+    { year: "2019", kind: "award", title: "Best Talk (Runner-up) Award", event: "VUW–Massey PGR Chemistry Symposium" },
     { year: "2018", kind: "scholarship", title: "Master's by Thesis Scholarship", event: "Te Herenga Waka – Victoria University of Wellington" },
     { year: "2016", kind: "scholarship", title: "Ngāti Kahungunu Iwi Scholarship", event: "Ngāti Kahungunu Iwi" },
     { year: "2015", kind: "honour", title: "Dean's List", event: "Victoria University of Wellington" },

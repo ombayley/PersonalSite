@@ -45,9 +45,9 @@ export default function Page() {
       <EducationSection />
       <ExperienceSection />
       <ProjectsSection />
+      <SkillsSection />
       <PublicationsSection />
       <AwardsSection />
-      <SkillsSection />
       <ContactSection year={year} />
 
       <footer className="py-10 text-center text-xs opacity-60">
