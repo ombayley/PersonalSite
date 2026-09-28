@@ -11,7 +11,7 @@ import { DATA } from "@/data/site-data";
 export function HeroSection() {
   return (
     <header id="home" className="relative overflow-hidden">
-      <div className="max-w-6xl mx-auto px-4 py-20 md:py-28">
+      <div className="max-w-6xl mx-auto px-4 py-10 md:py-16">
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}

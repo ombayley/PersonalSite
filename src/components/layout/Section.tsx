@@ -11,7 +11,7 @@ type SectionProps = {
 
 export function Section({ id, title, children }: SectionProps) {
   return (
-    <section id={id} className="scroll-mt-28 py-10 md:py-12">
+    <section id={id} className="scroll-mt-28 py-8 md:py-10">
       <div className="max-w-6xl mx-auto px-4">
         <motion.h2
           variants={fade}
