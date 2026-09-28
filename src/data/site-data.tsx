@@ -187,15 +187,58 @@ skills: [
       summary: "Major in Molecular Pharmacology and Medicinal Chemistry"
     }
   ],
-  puplications: [
+  // * = equal contribution; "…" = authors omitted
+  publications: [
     {
-      authors: [],
-      title: "",
-      year: "20xx",
-      journal: "JACS",
-      doi: "addr",
-
-    }
-  ]
-
+      authors: ["*M. Regnier", "*O. Bayley", "G. Hopsort", "A. Brunetti", "E. Savino", "A. Gargano", "T. Noël"],
+      title: "Autonomous Flow Electrolysis: A Self-Driving Platform for Electrochemical Reaction Optimization",
+      year: "2026",
+      journal: "Manuscript in preparation",
+      doi: "",
+    },
+    {
+      authors: ["*M. Vanzella", "*O. Bayley", "…", "T. Noël"],
+      title: "Autonomous Control of Polymer Upcycling with a Self-Driving Laboratory",
+      year: "2026",
+      journal: "ChemRxiv",
+      doi: "10.26434/chemrxiv.15005284/v1",
+    },
+    {
+      authors: ["J. Djossou", "M. Claros", "O. Bayley", "T. Noël"],
+      title: "Redefining synthetic efficiency: Chemical and technological shortcuts",
+      year: "2026",
+      journal: "Chem",
+      doi: "10.1016/j.chempr.2026.103139",
+    },
+    {
+      authors: ["*S. Pilon", "*E. Savino", "*O. M. Bayley", "M. Vanzella", "…", "T. Noël"],
+      title: "A flexible and affordable self-driving laboratory for automated reaction optimization",
+      year: "2026",
+      journal: "Nature Synthesis",
+      doi: "10.1038/s44160-026-01053-0",
+    },
+    {
+      authors: ["*J. Djossou", "*F. Pasca", "…", "O. Bayley", "…", "T. Noël"],
+      title: "Radical Disconnection Logic Enables Direct Conversion of α-Amino Acids into Differentiated Vicinal Diamines",
+      year: "2026",
+      journal: "J. Am. Chem. Soc.",
+      doi: "10.1021/jacs.6c16323",
+    },
+    {
+      authors: ["N. Kaplaneris", "E. Savino", "…", "O. Bayley", "…", "T. Noël"],
+      title: "Machine Learning-Guided Discovery of Robust Conditions for Photochemical Nickel-Catalyzed Cysteine Arylation",
+      year: "2025",
+      journal: "ChemRxiv",
+      doi: "10.26434/chemrxiv-2025-zwqnt",
+    },
+    {
+      authors: ["*O. Bayley", "*E. Savino", "*A. Slattery", "T. Noël"],
+      title: "Autonomous Chemistry: Navigating Self-Driving Labs in Chemical and Material Sciences",
+      year: "2024",
+      journal: "Matter",
+      volume: "7",
+      pages: "2382–2398",
+      doi: "10.1016/j.matt.2024.06.003",
+    },
+  ],
 };

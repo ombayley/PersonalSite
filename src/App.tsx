@@ -7,6 +7,7 @@ import { AboutSection } from "@/components/sections/about";
 import { EducationSection } from "@/components/sections/education";
 import { ExperienceSection } from "@/components/sections/experience";
 import { ProjectsSection } from "@/components/sections/projects";
+import { PublicationsSection } from "@/components/sections/publications";
 import { SkillsSection } from "@/components/sections/skills";
 import { ContactSection } from "@/components/sections/contact";
 import { DATA } from "@/data/site-data";
@@ -43,6 +44,7 @@ export default function Page() {
       <EducationSection />
       <ExperienceSection />
       <ProjectsSection />
+      <PublicationsSection />
       <SkillsSection />
       <ContactSection year={year} />
 
