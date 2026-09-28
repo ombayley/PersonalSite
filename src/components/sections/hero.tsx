@@ -24,8 +24,7 @@ export function HeroSection() {
             <span className="opacity-70">{DATA.target_location}</span>
           </div>
 
-          <h1 className="text-3xl md:text-6xl font-semibold leading-tight">
-            <br />
+          <h1 className="text-4xl md:text-4xl font-semibold leading-tight">
               {DATA.name}
             <br />
             <span className="bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 bg-clip-text text-transparent">
