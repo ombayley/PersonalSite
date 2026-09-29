@@ -281,9 +281,9 @@ export const DATA = {
     {
       authors: ["N. Kaplaneris", "E. Savino", "…", "O. Bayley", "…", "T. Noël"],
       title: "Machine Learning-Guided Discovery of Robust Conditions for Photochemical Nickel-Catalyzed Cysteine Arylation",
-      year: "2025",
-      journal: "ChemRxiv",
-      doi: "10.26434/chemrxiv-2025-zwqnt",
+      year: "2026",
+      journal: "ACS Catal.",
+      doi: "https://doi.org/10.1021/acscatal.6c06459",
       image: "/docs/graphical_abstracts/ChemRxiv_Cys_Arylation.jpg",
     },
     {
