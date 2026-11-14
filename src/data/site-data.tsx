@@ -237,11 +237,11 @@ export const DATA = {
   // * = equal contribution; "…" = authors omitted
   publications: [
     {
-      authors: ["*M. Regnier", "*O. Bayley", "G. Hopsort", "A. Brunetti", "E. Savino", "A. Gargano", "T. Noël"],
-      title: "Autonomous Flow Electrolysis: A Self-Driving Platform for Electrochemical Reaction Optimization",
+      authors: ["*M. Regnier", "*O. Bayley", "*G. Hopsort", "A. Brunetti", "E. Savino", "A. Gargano", "T. Noël"],
+      title: "eRoboChem: Autonomous Electrosynthesis Across Redox Modes and Reactor Designs",
       year: "2026",
-      journal: "Manuscript in preparation",
-      doi: "",
+      journal: "ChemRxiv",
+      doi: "https://doi.org/10.26434/chemrxiv.15012097/v1",
       image: "/docs/graphical_abstracts/eRoboChem.png",
     },
     {
