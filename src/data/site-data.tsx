@@ -4,7 +4,7 @@ import { Brain, ChartLine, GitBranch, Cpu, FlaskConical, Bot } from "lucide-reac
 
 export const DATA = {
   name: "Dr. Olly Bayley",
-  title: "Research Engineer • ML and Embedded Systems",
+  title: "Research Engineer • Data Pipelines, ML & Embedded Systems",
   location: "Auckland, NZ",
   target_location: "Auckland, NZ",
   email: "ollybayley1@gmail.com",
@@ -16,12 +16,12 @@ export const DATA = {
     mastersThesis: "/docs/obayley_masters_thesis.pdf",
   },
   blurb:
-    "A Kiwi Researcher with an interest in hardware automation, machine learning and chemical synthesis.",
+    "A Kiwi Engineer working on a mix of hardware automation, data pipelines, machine learning and chemical synthesis.",
   skills: {
     languages: [
       { name: "Python", level: "Primary", icon: <FaPython className="w-5 h-5" /> },
       { name: "C++", level: "Arduino / embedded", icon: <SiCplusplus className="w-5 h-5" /> },
-      { name: "Rust", level: "Bare-metal, Embassy", icon: <FaRust className="w-5 h-5" /> },
+      { name: "Rust", level: "Familiar (no-std)", icon: <FaRust className="w-5 h-5" /> },
       { name: "Go", level: "Familiar", icon: <FaGolang className="w-5 h-5" /> },
     ],
     groups: [
@@ -87,19 +87,18 @@ export const DATA = {
   ],
   invitedTalks: ["Big Chem NL, Groningen", "UvA–Max Planck Symposium"],
   about:[
-    "Trained as an organic synthetic chemist, my Masters (VUW - NZ) and industry work (ACSRC - NZ) focused on total synthesis and drug development. " +
+    "Trained as an organic chemist, my Masters (VUW - NZ) and early industry work (ACSRC - NZ) focused on total synthesis and drug development. " +
     "I then moved to the UK (Bristol) to do my PhD focusing on the development of new Molecular Machines. Having spent considerable time building custom " +
     "analytical devices for the PhD, I subsequently moved to Amsterdam (The Netherlands) to focus on chemical automation (Post-Doc). " +
-    "For the last three years I have designed self-driving laboratories where Bayesian optimisation (BO) agents choose experiment " +
+    "For the last few years I have designed self-driving laboratories where Bayesian optimisation (BO) agents choose experiment " +
     "conditions, custom-built hardware runs it, and automated data pipelines turn the raw instrument data into the next " +
     "training point. This work has produced three platforms (see publication list) and industrial collaborations with Novo " +
-    "Nordisk, Covestro and Symeres. Having spent 3 years covering the full stack of theses systems, I'm now looker to delve deeper into " +
-    "the embedded systems and machine learning elements."
+    "Nordisk, Covestro and Symeres."
   ],
   projects: [
     {
       name: "ChemRover",
-      tagline: "MConfig-driven ML benchmark (8 models, Hydra/Optuna, RDKit) predicting azobenzene absorption maxima (R² ≈ 0.92).",
+      tagline: "Config-driven ML benchmark (8 models, Hydra/Optuna, RDKit) predicting azobenzene absorption maxima (R² ≈ 0.92).",
       description:
         "ML Prediction of azobenzene properties. To be paired with ChemKlipper for predictive exploration as a part of a research project",
       stack: ["Python","Scikit-Learn", "XGBoost", "Hydra", "optuna", "RDkit", "jupyter notebooks"],
